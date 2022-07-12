@@ -37,4 +37,35 @@ h1 {
 }
 section {
   height: 500px;
+  padding-bottom: 200px;
+}
+.dream-bg {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.box-shadow {
+  margin-left: 20px;
+  box-shadow: 20px 20px 40px grey;
+  height: 70%;
+  border-radius: 5px;
+  background-color: white;
+}
+.exp-bg {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.border-design1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, tomato, lightsalmon);
+  border-image-slice: 1;
+}
+.border-design2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+.align {
+  text-align: center;
 }
